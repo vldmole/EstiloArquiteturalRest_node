@@ -1,0 +1,27 @@
+{
+  "name": "ms-authentication",
+  "version": "1.0.0",
+  "description": "microsrviço de autenticação",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vldmole/ms-authentication.git"
+  },
+  "keywords": [
+    "authentication"
+  ],
+  "author": "Vilson Luiz Dalle Mole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vldmole/ms-authentication/issues"
+  },
+  "homepage": "https://github.com/vldmole/ms-authentication#readme",
+  "devDependencies": {
+    "@types/node": "^18.6.3"
+  }
+}
